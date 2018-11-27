@@ -1,113 +1,99 @@
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-  }
-  .clearfix { display: inline-block; }
-  /* start commented backslash hack \*/
-  * html .clearfix { height: 1%; }
-  .clearfix { display: block; }
-  /* close commented backslash hack */
+body{
 
+font-family: Arial, Helvetica, sans-serif;
+font-size:15px;
+line-height:1.5;
+padding:0;
+margin:0;
+background-color:#f4f4f4
+}
 
-  
-.site-header {
-background:#ffffff;
-font-family: 'Georgia', Times, Times New Roman, serif;
+/*Global*/
+.container{
+width:80%;
+margin:auto;
+overflow:hidden;
 
 }
 
-.site-header h1 {
+ul{
     margin:0;
-    float: left;
-    padding: 23px;
+    padding:0;
 }
 
-.main-nav {
-    float: right;
+/*Header**/
+header{
+    background:#35424a;
+    color:#ffffff;
+padding-top:30px;
+min-height: 70px;
+border-bottom:#e8491d 3px solid;
 }
 
-.main-nav ul { 
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.main-nav ul li { 
-    display: inline;
-}
-
-.main-nav ul li a { 
-    display: inline;
+header a{
+    color:#ffffff;
     text-decoration: none;
-    color: #777777;
-    position: relative;
-    bottom: -29px;
-    padding-left: 14px;
-    position: relative;
-    border-left: 1px solid #cccccc;
-    padding-right: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
-h1 {
-    background: #4aaaa5;
-    color: white;    
-    
-
-
+header ul{
+list-style-type: none;
 }
 
-.billboard {
-    background:white;
-    height: 600px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-   
+header li{
+    float:left;
+    display:lnline;
+    padding: 0 20px 0 20px;
 }
 
-.footer {
-    padding: 10px 5%;
+header #branding{
+    float:left;
 }
 
-.main-body {
-    background: #cccccc;
-    margin-left: auto;
-    margin-right: auto;
-    height: 600px;
-    width: 960px;
+header #branding h1{
+    margin:0;
 }
 
-h2 {
-    color: #4aaaa5;
-    position: relative;
-    bottom: -29px;
-    font-size: 35px;
-    left: 37px;
+header nav{
+float:right;
+margin-top:10px;
 }
 
-.border-bottom {
-    border-bottom: 3px solid #cccccc;
-    bottom: 508px;
-    position: relative;
-    box-sizing: border-box;
-    width: 94%;
-    left: 30px;
+#showcase, .highlight h1{
+color:#e8491d;
+font-weight: bold;
 }
 
-
-img {
-    float: left;
-    bottom: -105px;
-    position: relative;
-    left: 4px;
+.link a{
+    color:#e8491d;
 }
 
+.link a:hover{
+    font-weight: bold;
+}
 
-p {     
-     bottom: -105px;
-    position: relative;
-    left: 2px;
-    color: #777777;
+/**showcase*/
+
+#showcase{
+    min-width: height 400px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    float:left;
+}
+
+.container p{
+ float:right;
+ margin-top:10px;
+}
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
 }
