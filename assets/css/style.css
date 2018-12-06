@@ -1,0 +1,120 @@
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+font-size:15px;
+line-height:1.5;
+padding:0;
+margin:0;
+background-color:#f4f4f4
+}
+
+/*Global*/
+.container{
+width:80%;
+margin:auto;
+overflow:hidden;
+
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+/*Header**/
+header{
+    background:#35424a;
+    color:#ffffff;
+padding-top:30px;
+min-height: 70px;
+border-bottom:#e8491d 3px solid;
+}
+
+header a{
+    color:#ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul{
+list-style-type: none;
+}
+
+header li{
+    float:left;
+    display:lnline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin:0;
+}
+
+header nav{
+float:right;
+margin-top:10px;
+}
+
+#showcase, .highlight h1{
+color:#e8491d;
+font-weight: bold;
+}
+
+.link a{
+    color:#e8491d;
+}
+
+.link a:hover{
+    font-weight: bold;
+}
+
+/**showcase*/
+
+#showcase{
+    min-width: height 400px;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+    float:left;
+}
+
+.container p{
+ float:right;
+ margin-top:10px;
+}
+
+footer{
+    padding:10px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
+
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper {
+    min-height: 100%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  .push {
+    height: 50px;
+  }
+
+  .contactme {
+
+  }
